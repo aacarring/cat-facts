@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ADEFD1;
+  color: #00203F;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body header {
+  font-family: "Gaegu", cursive;
+  width: 75vw;
+  height: 10vh;
+  border: 2px solid black;
+}
+body .facts {
+  border: 2px solid black;
+  width: 75vw;
+  min-width: 300px;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .facts img {
+  border: 2px solid black;
+}
+body .generate {
+  border: 2px solid black;
+  width: 75vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .generate button {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+body .generate button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

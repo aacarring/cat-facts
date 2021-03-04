@@ -1,0 +1,46 @@
+@import 'mixins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ADEFD1;
+    color: #00203F;
+    width: 100vw;
+    height: 100vh;
+    @include flexDisplay();
+    text-align: center;
+    header {
+        font-family: 'Gaegu', cursive;
+        width: 75vw;
+        height: 10vh;
+        border: 2px solid black;
+    }
+    .facts {
+        border: 2px solid black;
+        width: 75vw;
+        min-width: 300px;
+        height: 65vh;
+        @include flexDisplay();
+        img {
+            border: 2px solid black;
+        }
+    }
+    .generate {
+        border: 2px solid black;
+        width: 75vw;
+        height: 15vh;
+        @include flexDisplay();
+        button {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
