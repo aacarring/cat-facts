@@ -33,10 +33,9 @@ body header {
   }
 }
 body .facts {
-  border: 5px solid #00203F;
-  border-radius: 15px;
-  box-shadow: 1px 2px 15px #00203F;
-  width: 55vw;
+  border: 10px solid #00203F;
+  border-radius: 25px;
+  width: 60vw;
   min-width: 300px;
   height: 60vh;
   display: flex;
@@ -45,7 +44,7 @@ body .facts {
   align-items: center;
 }
 body .facts .fact {
-  width: 45vw;
+  width: 50vw;
   line-height: 2;
   min-width: 300px;
   font-family: "Gaegu", cursive;
