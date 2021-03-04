@@ -13,33 +13,51 @@ body {
     @include flexDisplay();
     text-align: center;
     header {
+        margin: 5vh;
         font-family: 'Gaegu', cursive;
         width: 75vw;
-        height: 10vh;
-        border: 2px solid black;
+        height: 15vh;
+        font-size: 2.5em;
+        @media (max-width: 422px) {
+            font-size: 2em;
+        }
+        @media (max-width: 339px) {
+            font-size: 1.75em;
+        }
     }
     .facts {
-        border: 2px solid black;
-        width: 75vw;
+        border: 5px solid #00203F;
+        border-radius: 15px;
+        box-shadow: 1px 2px 15px #00203F;
+        width: 55vw;
         min-width: 300px;
-        height: 65vh;
+        height: 60vh;
         @include flexDisplay();
-        img {
-            border: 2px solid black;
+        .fact {
+            width: 45vw;
+            line-height: 2;
+            min-width: 300px;
+            font-family: "Gaegu", cursive;
+            font-size: 2em;
         }
     }
     .generate {
-        border: 2px solid black;
         width: 75vw;
         height: 15vh;
         @include flexDisplay();
         button {
-            padding: 5px;
-            border-radius: 5px;
+            color: #00203F;
+            padding: 7.5px;
+            font-family: "Gaegu", cursive;
+            font-size: 1.75em;
+            border-radius: 15px;
             border: none;
             outline: none;
+            font-weight: 600;
             &:hover {
                 cursor: pointer;
+                background: #00203F;
+                color: #ADEFD1;
             }
         }
     }
