@@ -1,0 +1,1 @@
+A simple HTML, Sass, and JavaScript app that fetches data from the cat-facts API.
